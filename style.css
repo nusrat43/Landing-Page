@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-weight: 900px;
+}
+.nav-flex-row a:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.nav-flex-row span {
+    
+    padding: 20px 15px;
+}
+
+.nav-flex-row  span a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.section-intro {
+    height: 750px;
+    background-image: url(assets/cover\ 2.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.carousel-inner img{
+    height: 700px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    background-color:#95999e;
+    padding: 40px;
+    
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px 20px;
+}
+
+.btn.btn-primary {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000000;
+    background-color: #e2e8ef;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background-color: #eee3e3;
+}
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 10px 25px;
+    font-size: 1.2em;
+}
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+
+
+.product{
+ width: 100%;
+ height: 800px;
+ margin-top: 50px;
+}
+
+.under-pro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.camera{
+  width: 35%;
+  height: 60%;
+  position: absolute;
+  top: 800px;
+  right: 900px ; 
+}
+.camera img{
+    height: 25%;
+    position: absolute;
+    left: 0;
+}
+.camera1{
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    top: 800px;
+    right: 450px ; 
+  }
+.camera1 img{
+      height: 25%;
+      position: absolute;
+      left: 0;
+}
+.camera2{
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    top: 800px;
+    left: 1000px;
+}
+.camera2 img{
+      height: 25%;
+      position: absolute;
+      left: 0;
+}
+.camera3{
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    top: 1200px;
+    right: 900px; 
+}
+.camera3 img{
+      height: 25%;
+      position: absolute;
+      left: 0;
+}
+.camera4{
+      width: 35%;
+      height: 60%;
+      position: absolute;
+      top: 1200px;
+      right: 450px ; 
+}
+.camera4 img{
+        height: 25%;
+        position: absolute;
+        left: 0;
+}
+.camera5{
+      width: 35%;
+      height: 60%;
+      position: absolute;
+      top: 1200px;
+      left: 1000px;
+}
+.camera5 img{
+        height: 25%;
+        position: absolute;
+        left: 0;
+}
+
+@media (width<500px) {
+    .nav-flex-row  span a {
+        font-size: 1rem;  
+        font-weight: 500;
+    }
+    .section-intro {
+        height: 450px;
+        
+    }
+    
+    .flex-column-form {
+       
+        margin: 2px 5px;
+    }
+    .opening-time,
+    .contact-adress {
+   
+    margin: 5px 10px;
+    font-size: 1rem;
+    }
+    .about-section p,
+    .about-section h3 {
+    font-size: 1rem;
+    }
+
+
+}
